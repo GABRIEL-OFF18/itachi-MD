@@ -52,7 +52,7 @@ Ninguna réplica, modificación o derivado externo tiene relación con mi trabaj
 
 ---
 
-### Instalaciónes
+### Instalaciónes Básicas
 
 <details>
 <summary><strong>🦦 Cloud</strong> — Shell</summary>
@@ -80,7 +80,7 @@ npm start
 </details>
 
 <details>
-<summary><strong>🦦 Termux</summary>
+<summary><strong>🦦 Termux</strong> — Manualmente</summary>
 
 ```bash
 termux-setup-storage
