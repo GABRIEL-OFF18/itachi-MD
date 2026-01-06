@@ -93,7 +93,7 @@ npm start
 ### Instalación en Termux
 
 <details>
-<summary><strong>🌴 Ter</strong> — Mux</summary>
+<summary><strong>🌴 Termux</summary>
 
 ```bash
 git clone https://github.com/DevZyxlJs/AlyaBot-MD
