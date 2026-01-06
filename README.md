@@ -83,6 +83,13 @@ npm start
 <summary><strong>🦦 Termux</summary>
 
 ```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+
+```bash
 git clone https://github.com/DevZyxlJs/AlyaBot-MD
 ```
 
@@ -101,6 +108,8 @@ npm install
 ```bash
 npm start
 ```
+
+> *Si aparece **(Y/I/N/O/D/Z) [default=N] ?** use la letra **"y"** y luego **"ENTER"** para continuar con la instalación.*
 
 </details>
 
