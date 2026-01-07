@@ -6,8 +6,6 @@ import path from 'path';
 import gradient from 'gradient-string';
 import seeCommands from './lib/system/commandLoader.js';
 import initDB from './lib/system/initDB.js';
-import antilink from './commands/antilink.js';
-import level from './commands/level.js';
 import { getGroupAdmins } from './lib/message.js';
 
 seeCommands()
@@ -30,7 +28,6 @@ const sender = m.sender
 if ((m.id.startsWith("3EB0") || (m.id.startsWith("BAE5") && m.id.length === 16) || (m.id.startsWith("B24E") && m.id.length === 20))) return
 
   initDB(m, client)
-  antilink(client, m)
 
   const from = m.key.remoteJid
   const idDD = client.user.id.split(':')[0] + "@s.whatsapp.net" || ''
@@ -227,7 +224,4 @@ if (!user.stats[today]) user.stats[today] = { msgs: 0, cmds: 0 }
     } catch (error) {
       return m.reply('🌱 Error al ejecutar el comando.')
     }
-
-  // valid(client, m, command)
-  level(m)
 };
