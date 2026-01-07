@@ -6,6 +6,7 @@ import path from 'path';
 import gradient from 'gradient-string';
 import seeCommands from './lib/system/commandLoader.js';
 import initDB from './lib/system/initDB.js';
+import level from './commands/level.js';
 import { getGroupAdmins } from './lib/message.js';
 
 seeCommands()
@@ -224,4 +225,6 @@ if (!user.stats[today]) user.stats[today] = { msgs: 0, cmds: 0 }
     } catch (error) {
       return m.reply('🌱 Error al ejecutar el comando.')
     }
+
+  level(m)
 };
