@@ -43,7 +43,7 @@ export default {
 
     const perfil = await client
       .profilePictureUrl(userId, 'image')
-      .catch((_) => 'https://cdn.stellarwa.xyz/files/1751246122292.jpg')
+      .catch((_) => 'https://cdn.sockywa.xyz/files/1751246122292.jpg')
 
     const users = Object.entries(globalUsers).map(([key, value]) => ({ ...value, jid: key }))
     const sortedLevel = users.sort((a, b) => (b.level || 0) - (a.level || 0))
