@@ -1,7 +1,7 @@
 import fs from 'fs';
 import chalk from 'chalk';
 
-global.owner = ['5492916450307', '5216671548329']
+global.owner = ['51941658192', '5216671548329']
 global.sessionName = 'Sessions/Owner'
 global.version = '^2.0'
 
